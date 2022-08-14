@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h2>RELLENA TU HOJA DE INSCRIPCION </h2>
+        <fieldset>
+            <legend>datos personales</legend>
+            <br>
+            <span>NOMBRE</span><br>
+            <input type="text" name="nombre" id="" maxlength="30"><br><br>
+            <span>APELLIDO</span><br>
+            <input type="text" name="apellidos" id="" maxlength="80"><br><br>
+            <span>CONTRASEÑA</span><br>
+            <input type="password" name="contraseña" id="" maxlength="10"><br><br>
+            <span>DNI</span><br>
+            <input type="number" name="DNI" id=""><br><br>
+            <span>SEXO</span><br>
+            <input type="radio" name="sexo" id="">
+            <label for="">hombre</label><br>
+            <input type="radio" name="sexo" id="">
+            <label for="">mujer</label><br><br>
+            <span>CARGAR FOTOGRAFIA</span><br><br>
+            <input type="file" name="foto" id=""><br><br>
+            <input type="checkbox" name="" id="" checked>
+            <span>suscribirme al boletin de novedades</span><br><br>
+            <input type="button" value="guardar cambios ">
+            <input type="reset" value="Borrar datos">
+        </fieldset><br>
+        <fieldset>
+            <legend>informacion del jugador</legend>
+            <br><span>POSICION</span><br><br>
+            <select name="posicion-jugador" id="">
+                <option value="arquero" selected="selected">arquero</option>
+                <option value="defensa">defensa</option>
+                <option value="lateral">lateral</option>
+                <option value="mediocampista">mediocampista</option>
+                <option value="delantero">delantero</option>
+            </select><br><br>
+            <span>CATEGORIA</span><br><br>
+            <span>fecha de nacimiento</span><br>
+            <input type="number" name="dia-nacimiento" id=""><span> de </span>
+            <select name="mes-nacimiento" id="">
+                <option value="enero">Enero</option>
+                <option value="febrero">Febrero</option>
+                <option value="marzo">Marzo</option>
+                <option value="abril">Abril</option>
+                <option value="mayo">Mayo</option>
+                <option value="junio">Junio</option>
+                <option value="julio">Julio</option>
+                <option value="agosto">Agosto</option>
+                <option value="septiembre">Septiembre</option>
+                <option value="octubre">Octubre</option>
+                <option value="noviembre">Noviembre</option>
+                <option value="diciembre">Diciembre</option>
+            </select>
+            <span> del </span>
+            <input type="number" name="año-nacimiento" id=""><br><br>
+            <span>especialidades </span><br>
+            <br><select name="" id="" multiple="multiple">
+                <option value="lateral-der"> laterar dr </option>
+                <option value="lateral-izq"> lateral izq </option>
+                <option value="volante creacion"> volante de creacion </option>
+                <option value="volante recuperacion"> volante recuperacion </option>
+                <option value="extremo-izq"> extremo izq </option>
+                <option value="extremo-der"> extremo-der </option>
+            </select>
+
+        </fieldset>
+
+
+
+    </form>
+</body>
+
+</html>
