@@ -1,0 +1,54 @@
+ 
+ .contenedor{
+    margin-left: 23%;
+    width: 50%;
+    height: 70%;
+ }
+ 
+ h1{
+    margin-left: 40%;
+ }
+
+ 
+ input:focus {
+    border: 2px solid #000;
+    background: #F3F3F3;
+  }
+  
+.titulos{
+    display: block;
+    margin-bottom: 10px;
+}
+.subtitulos{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-izq{
+    float: left;
+}
+
+.form-der{
+    float: right;
+}
+ .dual{
+    display: flex;
+ }
+
+.dual .input-der{
+    float: right;
+    display: block;
+    margin-left: 5px;
+}
+.dual .input-izq{
+    float: left;
+    display: block;
+}
+ button{
+    float: left;
+    margin-top: 50px;
+ }
+
+ 
+
+  
